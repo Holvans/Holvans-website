@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- 在head区域添加AI产品经理SEO优化 -->
 <head>
   <meta charset="UTF-8">
+  <!-- 添加关键字元数据 -->
+  <meta name="keywords" content="人工智能, Web开发, 技术博客, 项目展示">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=1.1">
   <title>My Personal Geeky Website</title>
+  <meta name="description" content="Holvans的技术博客与项目展示，分享人工智能、Web开发领域的技术实践">
+  <!-- 添加社交媒体分享优化 -->
+  <meta property="og:title" content="Holvans的技术世界">
+  <meta property="og:image" content="/images/og-image.jpg">
 </head>
 
-<body>
-  <header>
-    <h1>Welcome to My Personal Geeky Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
+<!-- 优化导航栏交互 -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
+  <style>
+    nav ul li a {
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #007BFF; /* 悬停时的颜色 */
+    }
+    nav ul li a.active {
+      font-weight: bold; /* 激活状态的样式 */
+    }
+  </style>
   <main>
-    <section id="hero">
-      <h2>Welcome to My Tech World</h2>
-      <p>Explore my projects and thoughts on technology.</p>
-      <a href="#" class="btn">Learn More</a>
-    </section>
+    <!-- 在body开始处添加canvas背景容器 -->
+    <body>
+      <canvas id="techBg"></canvas>
+      
+      <header class="glass-effect">
+        <h2>Welcome to My Tech World</h2>
+        <p>Explore my projects and thoughts on technology.</p>
+        <a href="#" class="btn">Learn More</a>
+      </header>
     <!-- 在项目展示区块添加更多细节 -->
     <section id="projects">
       <h2>My Projects</h2>
